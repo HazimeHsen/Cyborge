@@ -1,0 +1,13 @@
+.drag-container {
+    overflow: hidden;
+}
+.hidden-part {
+    overflow: hidden;
+}
+.card-handler {
+    display: flex;
+    cursor: grab;
+}
+.card-handler .item img {
+    pointer-events: none;
+}

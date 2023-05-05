@@ -1,0 +1,13 @@
+.Start-container{
+    margin-bottom: 100px;
+}
+.Start-container .center-heading{
+    text-align: center;
+    margin-bottom: 50px;
+}
+.start-card-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1%;
+    margin-bottom:20px;
+}

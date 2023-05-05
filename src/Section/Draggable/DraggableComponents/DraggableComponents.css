@@ -1,0 +1,7 @@
+.draggable-card {
+    margin-right: 30px;
+}
+.draggable-card img {
+    pointer-events: none;
+    border-radius: var(--border-radius);
+}

@@ -1,0 +1,13 @@
+.btn{
+    padding: 10px 25px;
+    font-weight: bold;
+    font-size: 15px;
+    background-color: var(--pink-color);
+    color: var(--white-color);
+    border-radius: var(--border-radius);
+}
+.btn:hover{
+    color: var(--pink-color);
+    background-color: var(--white-color);
+    transition: 0.6s;
+}

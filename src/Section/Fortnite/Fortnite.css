@@ -1,0 +1,66 @@
+.our-fortnite-container .fortnite-heading h2{
+    margin: 60px 0;
+    text-align: center;
+    color: var(--white-color);
+    font-weight: 700;
+    font-size: 50px;
+}
+.fortnite-container{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.fortnite-container .fortnite-popular-img{
+    width: 49%;
+}
+.fortnite-container .fortnite-popular-img .my-card{
+    width: 100%;
+}
+.fortnite-container .fortnite-popular-img .my-card .my-body{
+    padding: 0
+    ;
+}
+.fortnite-container .icons-fortnite{
+    width: 49%;
+    display: flex;
+    justify-content: center;
+}
+.our-fortnite-container .fortnite-img-handler {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+.our-fortnite-container .fortnite-img-handler img{
+    width: calc(100% / 3);
+    border-radius: var(--border-radius);
+    padding: 10px;
+}
+.start-info{
+    color: var(--my-color);
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 1.9;
+}
+.start-info a{
+    color: var(--white-color);
+}
+.start-info a:hover{
+    color: var(--pink-color);
+    transition: 0.6s;
+}
+.fortnite-info{
+    margin-top: 20px;
+}
+@media screen and (max-width: 991px) {
+    .fortnite-container .fortnite-popular-img,
+    .fortnite-container .icons-fortnite{
+        width: 100%;
+    }
+    .fortnite-container .icons-fortnite{
+        margin-top: 20px;
+    }
+    .our-fortnite-container .fortnite-img-handler img{
+        width: 100%;
+    }
+}

@@ -1,0 +1,16 @@
+.title{
+    margin-bottom: 30px;
+}
+.title .heading{
+    font-weight: 700;
+    color: var(--pink-color);
+}
+.title .underline{
+    text-decoration: underline;
+    color: var(--white-color);
+}
+@media screen and (max-width: 991px) {
+    .title .heading {
+        font-size: 20px;
+    }
+}

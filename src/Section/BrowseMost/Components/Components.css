@@ -1,0 +1,113 @@
+.stream-card{
+    width: 24%;
+    padding: 0;
+    background-color: transparent;
+    border: none;
+}
+.card .stream-img{
+    position: relative;
+    transition: 0.6s;
+
+}
+.card .stream-img:hover .stream-live{
+    opacity: 1;
+    transition: 0.6s;
+
+}
+.card .stream-img .stream-live{
+    opacity: 0;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+.card .stream-img .stream-live .p-live{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    padding: 5px 10px;
+    background-color: var(--pink-color);
+    opacity: 0.9;
+    border-radius: var(--border-radius);
+}
+.card .stream-img .stream-live .bottom-hover{
+    position: absolute;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    opacity: 0.9;
+}
+.card .stream-img .stream-live .bottom-hover .view-count,
+.card .stream-img .stream-live .bottom-hover .stream-game{
+    border-radius: var(--border-radius);
+    background-color: var(--pink-color);
+    display: flex;
+    padding: 5px 10px;
+    align-items: center;
+}
+.card .stream-img .stream-live .bottom-hover .stream-game{
+    margin-left: 10px;
+}
+
+.card .stream-img img{
+    width: 100%;
+    border-radius: var(--border-radius);
+}
+.card .stream-card-body .avatar-img img{
+    width: 40px;
+    border-radius: var(--border-radius);
+}
+.card .stream-card-body .card-body-first-line{
+    display: flex;
+}
+.card .stream-card-body .card-body-first-line .stream-icon{
+    display: flex;
+    align-items: center;
+    color: var(--pink-color);
+    font-weight: 700;
+    margin-left: 10px;
+    margin-top: -16px;
+}
+.card .stream-card-body .card-body-first-line .stream-icon .material-symbols-outlined{
+    color: var(--white-color);
+    background-color: var(--pink-color);
+    border-radius: 50%;
+}
+
+.card .stream-card-body .card-body-first-line .stream-icon .title-info{
+    margin: 5px;
+}
+.stream-card .stream-card-body {
+    display: flex;
+    justify-content: initial;
+    flex-direction: column;
+}
+.card .stream-card-body .stream-info {
+    display: flex;
+    margin-left: 53px;
+    max-width: 130px;
+    margin-top: -10px;
+    font-weight: 700;
+}
+@media screen and (max-width: 991px){
+    .card{
+        width: 49%;
+    }
+}
+@media screen and (max-width: 767px){
+    .card{
+        width: 48%;
+    }
+    .card .stream-img .stream-live .bottom-hover .stream-game,
+    .card .stream-img .stream-live .p-live,
+    .card .stream-img .stream-live .bottom-hover .view-count{
+        font-size: 13px;
+    }    
+}
+@media screen and (max-width: 576px){
+    .card{
+        width: 100%;
+    }
+}

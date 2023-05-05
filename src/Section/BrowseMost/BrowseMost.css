@@ -1,0 +1,16 @@
+.all-stream-cards{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 30px;
+}
+@media screen and (max-width: 991px) {
+    .all-stream-cards{
+        gap: 10px;
+    }
+}
+@media screen and (max-width: 767px) {
+    .all-stream-cards{
+        gap: 12px;
+    }
+}

@@ -1,0 +1,32 @@
+.popular-component {
+    width: calc(100% / 4) -10px;
+}
+.popular-component .image-card-header img{
+    width: 100%;
+}
+.popular-component .profile-card-body .first{
+    font-weight: 700;
+}
+.popular-component .profile-card-body .profile-card-icon{
+    display: flex;
+    align-items: center;
+}
+.popular-component .profile-card-body .profile-card-icon .material-symbols-outlined{
+    font-size: 20px;
+    color: var(--pink-color);
+}
+.popular-component .profile-card-body .profile-card-icon span{
+    margin-left: 5px;
+    font-size: 15px;
+}
+
+@media screen and (max-width: 991px) {
+    .popular-component {
+        width: calc(100% / 2 - 10px);
+    }
+}
+@media screen and (max-width: 576px) {
+    .popular-component {
+        width: 100%;
+    }
+}

@@ -1,0 +1,19 @@
+.fortnite-component ul{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    flex-wrap: wrap;
+}
+.fortnite-component ul li{
+    display: flex;
+    flex-direction: column;
+}
+.fortnite-component ul li:first-child i{
+    color: rgb(220, 228, 64);
+}
+.fortnite-component ul li:not(:first-child) i{
+    color: var(--pink-color);
+}
+.fortnite-component ul li span{
+    margin-top: 4px;
+}

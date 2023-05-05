@@ -1,0 +1,21 @@
+.hero-container{
+    background-image: url(../../assets/images/banner-bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: var(--border-radius);
+    padding: var(--primary-padding);
+    font-size: 20px;
+}
+.hero-container h1{
+    font-size: 45px;
+    font-weight: bolder;
+    margin: 35px 0;
+}
+.hero-text{
+    max-width: 500px;
+}
+@media (max-width: 767px) {
+    .hero-container h1{
+        font-size: 25px;
+    }
+}

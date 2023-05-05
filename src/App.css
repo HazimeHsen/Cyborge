@@ -1,0 +1,38 @@
+:root{
+    --primary-padding: 60px;
+    --border-radius: 30px;
+    --half-border-radius: 50%;
+    --info-color: #27292a;
+    --primary-color: #1f2122;
+    --pink-color: #e75e8d;
+    --margin-top: 60px;
+    --main-margin: 30px;
+    --secondary-padding: 20px;
+    --white-color: #fff;
+    --my-color: #666;
+    --main-timer: 0.7s
+}
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,700;1,300;1,700&display=swap');
+body{
+    font-family: 'Poppins', sans-serif;
+}
+::selection {
+    color: white;
+    background: var(--pink-color);
+}
+ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+a{
+    text-decoration: none;
+    color: var(--my-color);
+}
+.Project-container{
+    position: relative;
+    background-color: var(--primary-color);
+    padding: 30px;
+    border-radius: var(--border-radius);
+    margin-top: var(--margin-top);
+}

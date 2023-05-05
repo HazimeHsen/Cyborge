@@ -1,0 +1,53 @@
+.card {
+    border-radius: var(--border-radius);
+    padding: 30px 15px;
+    background-color: var(--info-color);
+    color: var(--white-color);
+    width: 24%;
+}
+@media (max-width: 991px) {
+    .card{
+        width: 49%;
+    }
+}
+@media (max-width: 567px) {
+    .card{
+        width: 100%;
+    }
+}
+.card-img-top {
+    border-radius: var(--border-radius);
+}
+.card-body {
+    padding: 15px 0 0 0 ;
+    display: flex;
+    justify-content: space-between;
+}
+.card-body p{
+    margin: 0;
+}
+.card-body .icons li {
+    display: flex;
+}
+.card-body .icons li i{
+    margin-right: 5px;
+}
+.card-body .icons li .star{
+    color: rgb(233, 233, 48);
+}
+.card-body .icons li .download{
+    color: hotpink;
+}
+.card-body .name{
+    margin-bottom: 5px;
+}
+.card-body .name .first{
+    font-weight: 700;
+}
+.card-body .nick-name{
+    color: rgb(150, 150, 150);
+}
+
+.my-img{
+    width: 100%;
+}

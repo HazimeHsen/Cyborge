@@ -1,0 +1,16 @@
+.our-link{
+    width: 100% !important;
+}
+.our-link a{
+    color: var(--pink-color);
+    padding: 12px 30px;
+    background-color: transparent;
+    border: 1px solid var(--pink-color);
+    border-radius: var(--border-radius);
+}
+.our-link a:hover{
+    color: var(--pink-color);
+    background-color: var(--white-color);
+    border-color: var(--white-color);
+    transition: var(--main-timer);
+}
